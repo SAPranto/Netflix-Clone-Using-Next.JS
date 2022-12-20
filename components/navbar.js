@@ -39,8 +39,20 @@ const NavBar = (props) => {
           <li className={styles.navItem} onClick={handleOnClickHome}>
             Home
           </li>
-          <li className={styles.navItem2} onClick={handleOnClickMyList}>
+          <li className={styles.navItem} onClick={handleOnClickHome}>
+            TV Shows
+          </li>
+          <li className={styles.navItem} onClick={handleOnClickHome}>
+            Movies
+          </li>
+          <li className={styles.navItem} onClick={handleOnClickHome}>
+            New & Popular
+          </li>
+          <li className={styles.navItem} onClick={handleOnClickMyList}>
             My List
+          </li>
+          <li className={styles.navItem2} onClick={handleOnClickMyList}>
+            Browse By Languages
           </li>
         </ul>
         <nav className={styles.navContainer}>

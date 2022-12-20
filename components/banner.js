@@ -27,6 +27,15 @@ const Banner = (props) => {
               />
               <span className={styles.playText}>Play</span>
             </button>
+            <button className={styles.btnWithInfo} onClick={handleOnPlay}>
+              <Image
+                src="/static/play_info.svg"
+                alt="Play icon"
+                width={32}
+                height={32}
+              />
+              <span className={styles.infoBtnTxt}>More Info</span>
+            </button>
           </div>
         </div>
       </div>

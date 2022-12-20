@@ -100,7 +100,31 @@
     background-color: var(--white10);
     width: 8rem /* 128px */;
   }
+
+  .btnWithInfo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem /* 20px */;
+    margin-top: 1.25rem /* 20px */;
   
+    border-radius: 0.5rem /* 8px */;
+    padding-top: 0.5rem /* 8px */;
+    padding-bottom: 0.5rem /* 8px */;
+  
+    background-color: gray;
+    opacity: 70%;
+    width: 12rem /* 128px */
+  }
+  .infoBtnTxt{
+    font-weight: 600;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    padding-left: 0.25rem /* 4px */;
+    text-align: center;
+  }
   @media (min-width: 768px) {
     .left {
       width: 40%;
