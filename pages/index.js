@@ -26,8 +26,8 @@ export default function Home() {
       </Head>
       <NavBar username="ankita@ank.com" />
       <Banner
-        title="Clifford the red dog"
-        subTitle="a very cute dog"
+        title="Avengers"
+        subTitle="Infinity War"
         imgUrl="/static/clifford.webp"
       />
 
