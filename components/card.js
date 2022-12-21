@@ -15,8 +15,6 @@ const Card = (props) => {
   const [imgSrc, setImgSrc] = useState(imgUrl);
   const classMap = {
     large: styles.lgItem,
-    medium: styles.mdItem,
-    small: styles.smItem,
   };
   const handleOnError = () => {
     console.log("hii error");

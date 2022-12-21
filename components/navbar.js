@@ -30,7 +30,7 @@ const NavBar = (props) => {
               src="/static/netflix.svg"
               alt="Netflix logo"
               width={128}
-              height={34}
+              height={26}
             />
           </div>
         </a>
