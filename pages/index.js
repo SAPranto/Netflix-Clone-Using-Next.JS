@@ -9,7 +9,7 @@ import { getVideos } from "../lib/videos";
 
 export async function getServerSideProps(context) {
   const disneyVideos = await getVideos("Hollywood Movie trailers");
-  const productivityVideos = await getVideos("Latest Hollywood Songs");
+  const productivityVideos = await getVideos("Latest Bollywood Songs");
   const travelVideos = await getVideos("Valorant Highlights");
   // const popularVideos = await getVideos();
 
