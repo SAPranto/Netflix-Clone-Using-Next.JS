@@ -42,9 +42,9 @@ export default function Home({
   />
 
   <div className={styles.sectionWrapper}>
-    <SectionCards title="Disney" videos={disneyVideos} size="large" />
-    <SectionCards title="Travel" videos={travelVideos} size="large" />
-    <SectionCards title="Productivity" videos={productivityVideos} size="large"/>
+    <SectionCards title="Movie trailers" videos={disneyVideos} size="large" />
+    <SectionCards title="Valorant Highlights" videos={travelVideos} size="large" />
+    <SectionCards title="Bollywood Songs" videos={productivityVideos} size="large"/>
     <SectionCards title="Popular" videos={popularVideos} size="large" />
   </div>
 </div>
