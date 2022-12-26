@@ -6,7 +6,7 @@ import NavBar from "../components/navbar";
 import Card from "../components/card";
 import SectionCards from "../components/section-cards";
 import { getVideos,getPopularVideos} from "../lib/videos";
-
+import { magic } from "../lib/magic-client";
 
 export async function getServerSideProps(context) {
   const disneyVideos = await getVideos("Hollywood Movie trailers");
@@ -34,7 +34,7 @@ export default function Home({
         </Head>
 
 <div className={styles.main}>
-  <NavBar username="ankita@ank.com" />
+<NavBar />
   <Banner
     title="Avengers"
     subTitle="Infinity War"
