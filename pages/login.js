@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Login.module.css";
-import { magic } from "../lib/magic-client";
+import { magic } from "/lib/magic-client";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -42,7 +42,7 @@ const Login = () => {
         //  log in a user by their email
         try {
           const didToken = await magic.auth.loginWithMagicLink({
-            email
+            email,
           });
           console.log({ didToken });
           if (didToken) {
