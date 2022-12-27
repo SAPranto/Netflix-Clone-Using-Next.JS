@@ -39,8 +39,9 @@ const Login = () => {
 
     if (email) {
       if (email === "sa.pranto16@gmail.com") {
+        router.push("/");
         //  log in a user by their email
-        try {
+     /*   try {
           const didToken = await magic.auth.loginWithMagicLink({
             email,
           });
@@ -53,7 +54,7 @@ const Login = () => {
           // Handle errors if required!
           console.error("Something went wrong logging in", error);
           setIsLoading(false);
-        }
+        } */
       } else {
         setIsLoading(false);
         setUserMsg("Something went wrong logging in");
