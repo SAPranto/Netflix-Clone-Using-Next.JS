@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
       router.events.off("routeChangeError", handleComplete);
     };
   }, [router]);
-  return isLoading ? <Loading /> : <Component {...pageProps} />;
+  return /*isLoading ? <Loading /> : */<Component {...pageProps} />;
 }
 
 export default MyApp;
